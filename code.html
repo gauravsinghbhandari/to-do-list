@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="app.js"></script>
+
+<title>To Do List</title>
+</head>
+
+<body>
+
+<h1>ToDo List</h1>
+
+
+
+<h2>Add Items</h2>
+
+<form id="addForm">
+
+
+<input type="text" onkeyup=
+"toggleButton(this, 'submit')"
+class="form-control" id="item">
+
+
+
+<input type="submit" class="btn btn-dark"
+id="submit" value="Submit" disabled>
+
+</form>
+
+<h3 class="mt-4">Tasks</h3>
+
+<form id="addForm">
+<ol class="list-group" id="items"></ol>
+</form>
+</body>
+
+</html>
+
